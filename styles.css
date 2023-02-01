@@ -25,17 +25,24 @@ body {
 	color: black;
 	background: white;
     min-height: 100vh;
+    min-width: 100%;
     font-family: Arial, sans-serif;
 
 }
 
 
 #header-main {
-    background: #1f2937;
+    
     display: flex;
     min-height: 30px;
     align-items: center;
     padding: 15px 30px 15px 30px;
+}
+
+#header-cont {
+    background: #1f2937;
+    
+    
 }
 
 #logo {
@@ -49,6 +56,11 @@ body {
     
     color: #e5e7eb;
     font-size: 18px;
+    display: flex;
+    
+}
+
+#navigation {
     margin-right: 75px;
 }
 
@@ -72,6 +84,7 @@ nav a {
     align-items: center;
     justify-content: left;
     padding-left: 80px;
+    
 }
 
 #desc-para {
