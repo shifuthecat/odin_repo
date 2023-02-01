@@ -41,7 +41,7 @@ body {
 
 #header-cont {
     background: #1f2937;
-    
+    position: fixed;
     width: 100%;
 }
 
