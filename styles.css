@@ -131,6 +131,7 @@ li img {
 li>p {
     text-align: center;
     margin-top: 10px;
+    color: #1f2937;
 }
 
 #quote-div {
@@ -193,4 +194,12 @@ h3{
     left: 15%;
     font-size: 17px;
     
+}
+
+footer {
+    background: #1f2937;
+    color: #F9faf8;
+    min-height: 30px;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
 }
