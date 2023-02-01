@@ -142,6 +142,55 @@ li>p {
 }
 
 #quote-para {
-    font-weight: 36px;
+    font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
+}
+#quoter-name {
+    display: block;
+    text-align: right;
+}
+
+#bottom-div {
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom-para {
+    background: #3882F6;
+    border-radius: 8px;
+    width: 900px;
+    height: 150px;
+    color: #F9faf8;
+    font-size: 20px;
+}
+
+#btn-2 {
+    border : 2px solid #F9faf8;
+    background: #3882F6;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+    color: #F9faf8;
+    
+    font-size: 17px;
+    position: relative;
+    left: 20%;
+    top: 25%;
+}
+
+h3{
+    position: relative;
+    left: 15%;
+    top: 35%;
+}
+
+#bottom-para span {
+    position: relative;
+    top : 35%;
+    left: 15%;
+    font-size: 17px;
+    
 }
