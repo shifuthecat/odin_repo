@@ -1,0 +1,222 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: Arial, sans-serif;
+
+}
+
+
+#header-main {
+    
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+}
+
+#header-cont {
+    background: #1f2937;
+    border: 2px solid red;
+    width: 100%;
+}
+
+#logo {
+    flex-grow: 1;
+    color: #F9faf8;
+    font-size: 24px;
+    margin-left: 80px;
+}
+
+#nav-links {
+    
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    
+}
+
+#navigation {
+    margin-right: 75px;
+}
+
+nav a {
+    margin: 50px 50px 50px 35px;
+}
+
+#para-title { 
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9faf8;
+    padding-bottom: 100px;
+    margin-bottom: 10px;
+    
+}
+
+#desc-div {
+    background: #1f2937;
+    height: 475px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 80px;
+    
+}
+
+#desc-para {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: -110px;
+}
+
+#description {
+    margin-left: 30px;
+    width: 500px;
+    margin-bottom: 8px;
+}
+img {
+    margin-bottom: 18px;
+    margin-left: 5px;
+}
+
+#sign-up {
+    background: #3882F6;
+    border-radius: 8px;
+    border-style: none;
+    width: 120px;
+    height: 40px;
+    color: #F9faf8;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+#team-list {
+    display: flex;
+    
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 800px;
+    color: #1f2937;
+    font-size: 36px;
+    padding-top: 40px;
+}
+
+#cont-team {
+    height: 475px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li img {
+   width: 200px;
+   height: 240px;
+   margin: -80px 30px 0px 30px;
+}
+li>p {
+    text-align: center;
+    margin-top: 10px;
+    color: #1f2937;
+}
+
+#quote-div {
+    height: 475px;
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote-para {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+#quoter-name {
+    display: block;
+    text-align: right;
+}
+
+#bottom-div {
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom-para {
+    background: #3882F6;
+    border-radius: 8px;
+    width: 900px;
+    height: 150px;
+    color: #F9faf8;
+    font-size: 20px;
+}
+
+#btn-2 {
+    border : 2px solid #F9faf8;
+    background: #3882F6;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+    color: #F9faf8;
+    
+    font-size: 17px;
+    position: relative;
+    left: 20%;
+    top: 25%;
+}
+
+h3{
+    position: relative;
+    left: 15%;
+    top: 35%;
+}
+
+#bottom-para span {
+    position: relative;
+    top : 35%;
+    left: 15%;
+    font-size: 17px;
+    
+}
+
+footer {
+    background: #1f2937;
+    color: #F9faf8;
+    min-height: 30px;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+}
+
+ul {
+    list-style: none;
+}
